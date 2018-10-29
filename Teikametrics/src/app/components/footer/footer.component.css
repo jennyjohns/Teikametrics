@@ -1,0 +1,58 @@
+.page-padding {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.component-border:before {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 85%;
+    border-top: 1px solid whitesmoke;
+}
+.pull-right {
+    float: right;
+}
+.pad-left {
+    padding-left: 100px;
+}
+.small-font {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgrey;
+}
+
+.spaces span{
+    margin-left: 40px;
+}
+
+.spaces, .space {
+    margin-bottom: 30px;
+}
+
+.space img{
+    margin-left: 20px;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.black-font {
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .small-centered {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .spaces span {
+        margin-left: 50px;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .space img {
+        margin-left: 30px;
+    }
+}

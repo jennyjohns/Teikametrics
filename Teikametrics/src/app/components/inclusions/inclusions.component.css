@@ -1,0 +1,36 @@
+.background {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background span, .background i {
+    color: #7B81EA;
+    font-weight: bold;
+    font-size: smaller;
+}
+.background span {
+    margin-left: 15px;
+}
+.background p {
+    font-size: smaller;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.background h3 {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .background {
+        margin: 40px;
+    }
+    .background .col {
+        display: contents;
+    }
+    .background .row {
+        padding: 10px;
+    }
+}
